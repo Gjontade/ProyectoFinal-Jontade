@@ -1,0 +1,8 @@
+// MIXIN: @palabraElegida {estilos}
+@mixin estiloTarjeta {
+    background-color: #8080805b;
+	border: solid 2px black;
+	border-radius: 1rem;
+	padding: 10px;
+	margin: 5px auto;
+}

@@ -1,0 +1,16 @@
+footer {
+	/* PIE DE PAGINA */
+	background-image: url(../img/fondo-piedra.jpg);
+	background-size: cover;
+	padding: 20px 0px 5px 0px;
+	section {
+		.redes {
+			margin: 5px 5px;
+			padding: 5px auto;
+			transition: transform 0.3s ease;
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
+}

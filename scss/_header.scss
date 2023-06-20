@@ -1,0 +1,50 @@
+/* HEADER - NAV */
+header {
+	.header {
+		background-image: url(../img/fondo-piedra.jpg);
+		background-size: cover;
+		position: sticky;
+		div {
+			.navbar-brand {
+				img {
+					width: 13rem;
+					height: 7rem;
+					transition: transform 1s ease;
+					&:hover {
+						transform: rotatez(360deg);
+					}
+				}
+			}
+			div {
+				ul {
+					li {
+						-webkit-text-stroke: 1px yellow;
+						font-size: x-large;
+
+						.activa {
+							-webkit-text-stroke: 1px yellow;
+							color: #eb0005;
+							&:hover {
+								color: #eb0005;
+								-webkit-text-stroke: 1px yellow;
+							}
+						}
+						.inactiva {
+							-webkit-text-stroke: 1px black;
+							color: #dfdfdf;
+							&:hover {
+								color: #eb0005;
+								-webkit-text-stroke: 1px yellow;
+							}
+						}
+
+						&:hover {
+							color: #eb0005;
+							-webkit-text-stroke: 1px yellow;
+						}
+					}
+				}
+			}
+		}
+	}
+}
